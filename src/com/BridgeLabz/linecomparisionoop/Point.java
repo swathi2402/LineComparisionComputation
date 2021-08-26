@@ -1,8 +1,8 @@
 package com.BridgeLabz.linecomparisionoop;
 
 public class Point {
-	double x;
-	double y;
+	 private double x;
+	 private double y;
 
 	public Point(double x, double y) {
 		this.x = x;
