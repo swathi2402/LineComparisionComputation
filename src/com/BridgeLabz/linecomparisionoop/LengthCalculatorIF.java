@@ -2,5 +2,5 @@ package com.BridgeLabz.linecomparisionoop;
 
 public interface LengthCalculatorIF {
 	
-	public String calculateLength(Line line);
+	public String lengthCalculator(Line line);
 }

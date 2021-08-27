@@ -3,7 +3,7 @@ package com.BridgeLabz.linecomparisionoop;
 public class LengthCalculatorImpl implements LengthCalculatorIF {
 
 	@Override
-	public String calculateLength(Line line) {
+	public String lengthCalculator(Line line) {
 		double x1 = line.getA().getX();
 		double y1 = line.getA().getY();
 		double x2 = line.getB().getX();
