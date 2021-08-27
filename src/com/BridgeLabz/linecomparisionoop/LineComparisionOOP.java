@@ -12,7 +12,7 @@ public class LineComparisionOOP {
 		Line line1 = new Line(point1, point2);
 		Line line2 = new Line(point3, point4);
 		
-		CalculateLengthIF calculateLength = new CalculateLengthImpl();
+		LengthCalculatorIF calculateLength = new LengthCalculatorImpl();
 		String distance1 = calculateLength.calculateLength(line1);
 		String distance2 = calculateLength.calculateLength(line2);
 		

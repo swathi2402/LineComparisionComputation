@@ -1,6 +1,6 @@
 package com.BridgeLabz.linecomparisionoop;
 
-public class CalculateLengthImpl implements CalculateLengthIF {
+public class LengthCalculatorImpl implements LengthCalculatorIF {
 
 	@Override
 	public String calculateLength(Line line) {
